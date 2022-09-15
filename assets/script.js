@@ -53,14 +53,13 @@ console.log (`L'array è composta da ${(primoArray.length)} elementi`)
 
 let Numbers = [1,2,3,4,5,6,7,8,9]
 
+// function getRandomInteger( max ){
+//    return Math.floor(Math.random() * 6)
+// }
+
 function showLuckyNumber() {
-   
-    let randomNumber = getRandomInteger(0, Numbers.length - 1)
-    let luckyNumber = Numbers[randomNumber]
-    document.getElementById(number-generator).innerHTML = luckyNumber
-
-    console.log(randomNumber)
-
+    let getRandomInteger = Numbers [Math.floor(Math.random() * 9)]
+    document.getElementById("number-generator").innerHTML = getRandomInteger
 }
 
 
